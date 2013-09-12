@@ -1,0 +1,61 @@
+div#map{
+    width:  80%;
+    height: 650px;
+}
+
+div#placemenu{
+    width: 166px; height: 420px; top: 110px; left: 557px;
+    position: absolute;
+    z-index: 2;
+    visibility: visible;
+    border-style: botted;
+    font-size: small;
+    align: left;
+}
+
+div#maintitle{
+    width: 525px; height: 24px; top: 7px; left: 13px;
+    position: absolute;
+    z-index: 3;
+    visibility: visible;
+    font-size: x-large;
+    font-family: fantasy;
+}
+
+div#locations{
+    width: 166px; height: 55px; top: 40px; left: 556px;
+    position: absolute;
+    z-index: 4;
+    visibility: visible;
+}
+
+div.INFOWINDOW{
+    width: 400px;
+    height: 200px;
+}
+div.DOCUMENT{
+    float:  left;
+}
+div.TITLE{
+    width: 250px;
+    word-break:     keep-all;
+    text-shadow:    1px 1px 1px #FFF;
+    text-wrap:      unrestricted;
+    font-family:    meiryo;
+    font-weight:    600;
+    font-size:      1.5em;
+    color:          #000;
+/*    text-decoration: underline;*/
+}
+div.DESCRIPTION{
+    color:          #000;
+    width: 180px;
+    font-family: 'meiryo';
+    font-size: 14px;
+}
+div.STREETVIEW{
+    float: right;
+}
+div#page1, div#page2{
+    background: #fff;
+}

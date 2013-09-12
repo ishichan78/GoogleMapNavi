@@ -1,0 +1,18 @@
+#zebraTable table{
+    width: 80%;
+    margin: 1% auto;
+    background: #fff;
+    table-layout: fixed;
+}
+#zebraTable th,
+#zebraTable td{
+    padding: .5em 1em;
+    border: 0px solid #aaf;
+}
+#zebraTable thead th{
+    background: #ccf;
+    font-weight: bold;
+}
+#zebraTable tbody tr:nth-child(even){
+    background: #eef; 
+}

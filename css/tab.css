@@ -1,0 +1,41 @@
+.microtabs { margin:20px 0px; max-width:800px; }
+		
+.microtabs-button { 
+    padding: 10px; 
+    background-color:#333; 
+    color:#fff; 
+    text-decoration:none; 
+    font-family:Segoe UI, Helvetica, Arial;
+}
+.microtabs-button:hover { color:#abcdef; }
+.microtabs-selected {
+    background-color: #fff; 
+    color: #333; 
+    border-right:1px solid black; 
+    border-top:1px solid black; 
+    border-left:1px solid black; 
+}
+		
+.microtabs-element {
+    max-height: 423px;
+    background-color:#fff; 
+    color:#555; 
+    padding:10px;
+    overflow-y: scroll;
+}
+		
+.microtabs-header { margin-bottom: -1px; }
+.microtabs-container { border: 1px solid black; }
+  
+.style1
+{
+    text-align: left;
+}
+
+.square{
+    width:inherit;
+    padding-top:    1em;
+    padding-bottom: 1em;
+    border-bottom-color: Black;
+
+}

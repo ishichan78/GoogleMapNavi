@@ -1,0 +1,27 @@
+* {
+	margin:         0;
+	padding:        0;
+}
+html, body {
+    overflow-y:     hidden;
+    height:         100%;
+}
+body {
+    overflow:       auto;
+	background:     rgb(74, 81, 85);
+}
+div#menu {
+	margin:         5px auto
+}
+div#copyright{
+	font:           11px 'Trebuchet MS';
+	color:          #222;
+	text-indent:    30px;
+	padding-right:  1%;
+}
+div#copyright a {
+	color:          #000;
+}
+div#copyoright a:hover {
+	color:          #222;
+}
