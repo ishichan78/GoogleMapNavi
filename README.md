@@ -11,19 +11,24 @@ admin以下のファイルとMySQLデータベースを適当に作成してく�
 
 * ###root.php
 
-    <?php
-        $ROOT_DIR = "THIS_SITE_ROOT_URL"
+
+        <?php
+            $ROOT_DIR = "THIS_SITE_ROOT_URL"
+
 
 * ###landmarks\_dbinfo.php
 
-    <?php
-        $url = 'localhost';
-        $user = 'root'; // MySQL user
-        $pass = 'password' // MySQLL passwd
-        $db = 'landmarks'; // landmark DB
-        $tbl = 'namba' // Table Name
+
+        <?php
+            $url = 'localhost';
+            $user = 'root'; // MySQL user
+            $pass = 'password' // MySQLL passwd
+            $db = 'landmarks'; // landmark DB
+            $tbl = 'namba' // Table Name
+
 
 * ###食べログDBのフィールド
+
 1. id
 2. link 店舗情報ページのURL
 3. name 店舗名
