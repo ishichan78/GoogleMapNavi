@@ -28,13 +28,12 @@ admin以下のファイルとMySQLデータベースを適当に作成してく�
 
 
 * ###食べログDBのフィールド
-
-1. id
-2. link 店舗情報ページのURL
-3. name 店舗名
-4. full\_address 住所
-5. short\_address 簡易版住所
-6. lat 軽度
-7. lng 緯度
-8. description 案内文
-9. dummy blank
+    1. id
+    2. link 店舗情報ページのURL
+    3. name 店舗名
+    4. full\_address 住所
+    5. short\_address 簡易版住所
+    6. lat 軽度
+    7. lng 緯度
+    8. description 案内文
+    9. dummy blank
