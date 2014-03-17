@@ -2,21 +2,19 @@
 
 ## what's this?
 **Google Map Javascript API**を使用したナビゲーションWebアプリです。
-食べログ各飲食店情報のページから交通手段に書かれた人手の案内文をもとに
-ナビゲーションに表示する案内文を修正し，地図にも反映するように
-改良しています
+ナビゲーションに表示する案内文を修正し，地図にも反映するようにしています
 
 ## Usage
 admin以下のファイルとMySQLデータベースを適当に作成してください
 
-* ###root.php
+* __root.php__
 
 
         <?php
-            $ROOT_DIR = "THIS_SITE_ROOT_URL"
+            $ROOT_DIR = "Site's URL"
 
 
-* ###landmarks\_dbinfo.php
+* __landmarks\_dbinfo.php__
 
 
         <?php
@@ -24,10 +22,10 @@ admin以下のファイルとMySQLデータベースを適当に作成してく�
             $user = 'root'; // MySQL user
             $pass = 'password' // MySQLL passwd
             $db = 'landmarks'; // landmark DB
-            $tbl = 'namba' // Table Name
+            $tbl = 'table' // Table Name
 
 
-* ###食べログDBのフィールド
+* __食べログDBのフィールド__
     1. id
     2. link 店舗情報ページのURL
     3. name 店舗名
